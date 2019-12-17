@@ -35,7 +35,7 @@ Do wypisywania można użyć wygodnej funkcji `format` wywoływanej na łańcuch
 indeks = 10
 wartość = 4.5
 print("Element o indeksie {} ma wartość {}".format(indeks, wartość))
-```.
+```
 W nawiasach `{}` można wpisywać specyfikatory formatu np: `{:.2f}` wypiszę liczbę zmiennoprzecinkową zaokrągloną do dwóch miejsc po przecinku.
 
 ## Komentarze
