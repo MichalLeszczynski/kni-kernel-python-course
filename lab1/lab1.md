@@ -28,9 +28,14 @@ W pythonie nie można zrobić `print("abc" + 5)` ponieważ obiekty nie są tego 
 
 Inny przykład: `print(int("10") + 5)`, wypisze 15.
 
-### Podstawowe formatowanie stringów
-W pythonie można bardzo łatwo formatować złożone stringi. Do wypisywania można użyć wygodnej funkcji `format` wywoływanej na łańcuchu znaków: 
-`print("Element o indeksie {} ma wartość {}".format(indeks, wartość))`.
+## Formatowanie stringów
+W pythonie można bardzo łatwo formatować złożone stringi. 
+Do wypisywania można użyć wygodnej funkcji `format` wywoływanej na łańcuchu znaków: 
+```python
+indeks = 10
+wartość = 4.5
+print("Element o indeksie {} ma wartość {}".format(indeks, wartość))
+```.
 W nawiasach `{}` można wpisywać specyfikatory formatu np: `{:.2f}` wypiszę liczbę zmiennoprzecinkową zaokrągloną do dwóch miejsc po przecinku.
 
 ## Komentarze
